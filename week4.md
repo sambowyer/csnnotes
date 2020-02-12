@@ -175,7 +175,7 @@ A protocol provides Mutual Belief in a Key K for Alice with respect to Bob if, a
 communicate with Alice using “K”
 - Alice knows that Bob believes that “K” is a good key for “B”.
 
-## The TLS & TOR Protocols
+## The TLS & Tor Protocols
 
 ### The SSL/TLS Protocol
 - The Secure Sockets Layer (SSL) protocol was renamed the Transport Layer Security (TLS) protocol.
@@ -219,4 +219,4 @@ A variant uses Diffie-Hellman for “forward secrecy” (if someone gets the ser
 4. S → C:: {#(All previous messages)}<sub>K<sub>CS</sub>
 </sub>  
 
-KCS is a session key based on NC, NS & gxy,
+KCS is a session key based on N<sub>C</sub>, N<sub>S</sub> & g<sup>xy</sup>. *(g<sup>xy</sup> cannot be found in reasonable computation time, even if g<sup>x</sup> and g<sup>y</sup> are known, so this is secure)*
