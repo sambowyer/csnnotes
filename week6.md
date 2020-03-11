@@ -102,7 +102,7 @@ Components of ER diagrams:
 
 An example of an Entity-Relationship diagram is:
 
-![*Example of an ER-diagram*](ER_Diagram.jpg)
+![*Example of an ER-diagram*](img/ER_Diagram.jpg)
 
 ## Web Services
 '[Burp](https://portswigger.net/burp)'' is a good cybersecurity tool for tracking web services by looking at http(/s) packets received on your computer. A version is installed on this module's VM.

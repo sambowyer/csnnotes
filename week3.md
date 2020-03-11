@@ -86,7 +86,7 @@ Lets you log into other computers remotely. Uses public key authentication. Each
 ## The Internet and Sockets
 
 ### Internet Protocol (IP<sub>(v4)</sub>)
-![*IP Packet Header Diagram*](IP_Packet_Header.jpg)
+![*IP Packet Header Diagram*](img/IP_Packet_Header.jpg)
 
 IPv4 - 2<sup>32</sup> addresses  
 IPv6 - 2<sup>128</sup> addresses (plenty)
@@ -146,5 +146,5 @@ WireShark (www.wireshark.org) is a network protocol analyser - records all inter
 
 ### Using the IP stack to send data
 
-![*IP Stack Data Transmission Diagram*](IP_Stack.jpg)
+![*IP Stack Data Transmission Diagram*](img/IP_Stack.jpg)
 If packets are lost along the way, TCP ensures that they are resent so that the data fully makes it from Computer 1 to Computer 2.

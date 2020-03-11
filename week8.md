@@ -195,7 +195,7 @@ The actual attack used:
 3. Malicious content is delivered to victim
 4. Victim sends a request to the vulnerable web site
 
-![CSRF](CSRF.jpg)
+![CSRF](img/CSRF.jpg)
 
 One well-known CSRF attack in Brazil tried request forgery on the computer's router (which usually has awful security) and changed the DNS server to a custom one. This helped add an appearance of legitimacy to phishing attacks - phishing pages would now even have the 'correct'/expected domain name.
 

@@ -2,7 +2,7 @@
 
 ## Web Basics
 
-![HTTP](HTTP_Diagram.jpg)
+![HTTP](img/HTTP_Diagram.jpg)
 
 ### Webserver 101
 - Check open ports:
@@ -128,4 +128,4 @@ Many web developers implement their own log in systems. Often broken, e.g.
 - Sensitive data stored in clear text (e.g. passwords not hashed in database, credit card numbers not encrypted in database)
 - Cookie stealing because https connection turns to http
 
-![HTTP Diagram with TLS](HTTP_Diagram_TLS.jpg)
+![HTTP Diagram with TLS](img/HTTP_Diagram_TLS.jpg)
