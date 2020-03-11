@@ -185,6 +185,8 @@ There are a few ways to defned against binary/application analysis attacks, but 
     - Your program must include the key in plain text, so the attacker can find it
 - Obfuscate the code, e.g. mix data and code, so it’s not clear which is which
     - Can slow down attacks by months or years! (e.g. Skype)
+    - Often decompilers look for patterns in binaries, if you write code in a way that avoids these patters, often it is much harder to decompile your programs.
+    - (The `mov` command is actually Turing-complete, so you can compile your code entirely in a long list of `mov`s (tool to do this is available on GitHub), though this is an extreme case of obfuscation).
 - Require online activation:
     - Activation can be completely disabled, users don’t like this.
 - Require online content
