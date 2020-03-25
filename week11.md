@@ -38,7 +38,7 @@ You can check the run-time of different PINs in this function:
 
 As you can see, the PIN '2000' took the longest to evaluate -  this is because it entered into the second iteration of the i-loop, i.e. the first digit is 2. We can do the same for the 2nd, 3rd, and 4th digits to find the correct PIN. (Though once you have digits 1,2 and 3 you can just brute force the last 10 possibilities).
 
-An example of attack code for this is given [here](code/timing_attack).
+An example of attack code for this is given [here](extra/timing_attack).
 
 ### Cache Timing
 The cache stores recently used data, fetching from cache (“hit”) is faster than from RAM (“miss”).
@@ -51,7 +51,7 @@ If the access time is very small, you know that the user is using data stored in
 
 This allows you to check which memory locations have been accessed and which data was stored in the cache and which data in the memory.
 
-An example of attack code for this is given [here](code/cache_timing).
+An example of attack code for this is given [here](extra/cache_timing).
 
 Often cache-timing is used in conjunction with other exploits - it is just one building block of the famous exploits *Spectre* and *Meltdown*.
 
