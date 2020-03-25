@@ -107,4 +107,4 @@ An example of an Entity-Relationship diagram is:
 ## Web Services
 '[Burp](https://portswigger.net/burp)'' is a good cybersecurity tool for tracking web services by looking at http(/s) packets received on your computer. A version is installed on this module's VM.
 
-Supplementary material on website design can be found in [this](11_WebNotes.pdf) notes file, [this](11_Web_Code.pdf) code file, and on the [W3Schools](https://www.w3schools.com/) website.
+Supplementary material on website design can be found in [this](extra/11_WebNotes.pdf) notes file, [this](extra/11_Web_Code.pdf) code file, and on the [W3Schools](https://www.w3schools.com/) website.
